@@ -6,3 +6,5 @@ Price elasticity of demand (EPD), or elasticity, is the degree to which the comp
 
 ### Retail Price Optimization using Python
 In this machine learning pricing optimization project, we will take the data of a cafe and, based on their past sales, identify the optimal prices for their items based on the price elasticity of the items. First, you will calculate the price elasticity for each item, then figure out the optimal price. While taking a particular cafe data, we can extend this work to price any product. This machine learning retail price optimization project will focus on the former products.
+
+![RPO-01.png](https://github.com/jhashivam/PortfolioProjects/tree/main/Price_Optimization_Problem/RPO-snap/RPO-01.png)
