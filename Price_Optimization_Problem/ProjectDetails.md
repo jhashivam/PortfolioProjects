@@ -1,4 +1,4 @@
-### ML project for Retail Price Optimization
+# ML project for Retail Price Optimization
 
-## Description
+### Description : 
 
