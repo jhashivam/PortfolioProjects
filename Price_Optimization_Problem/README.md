@@ -42,3 +42,14 @@ Primarily, this project focuses on optimizing the prices of various items availa
 We can apply different types of price optimization techniques like reducing cannibalization for inter and intra products of the same company, reducing cost drastically while playing a volume game etc.   
 ##### 2) What is Price Optimization Machine learning?
 Price Optimization can be achieved using regression machine learning algorithms like linear regression. One can first estimate the price elasticity for each product using the past sales data and then use that coefficient for price optimization.
+
+
+
+### Note-
+
+1. Price elasticity - Price elasticity of demand is a measurement of the change in the consumption of a product in relation to a change in its price. Expressed mathematically, it is:
+Price Elasticity of Demand = Percentage Change in Quantity Demanded / Percentage Change in Price
+
+                                                  𝑒=%Δ𝑄/%Δ𝑃
+
+![RPO-02](https://github.com/jhashivam/PortfolioProjects/blob/main/Price_Optimization_Problem/RPO-snap/RPO-02.png)
