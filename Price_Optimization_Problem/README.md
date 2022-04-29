@@ -52,4 +52,4 @@ Price Elasticity of Demand = Percentage Change in Quantity Demanded / Percentage
 
                                                   𝑒=%Δ𝑄/%Δ𝑃
 
-![RPO-02](https://github.com/jhashivam/PortfolioProjects/blob/main/Price_Optimization_Problem/RPO-snap/RPO-02.png)
+![RPO-02](https://github.com/jhashivam/PortfolioProjects/blob/main/Price_Optimization_Problem/RPO-snap/RPO-02.jpeg)
