@@ -13,9 +13,4 @@ For more about Credit Risk Analysis Models written by [CFI Team](https://corpora
   👉 Why it is important and how financial institutions actually measure it?\
   👉 Get the dataset [Available here](https://drive.google.com/drive/folders/1Vde1aOHpPVYwNV7sNMEgyWqwhGR7CH1p?usp=sharing)\
   👉 Pre-processing( cleaning the data, dealing with missing values, diffrent aspects to see discreate and   data\
-  👉 Joins\
-  👉 Sub Queries\
-  👉 Views\
-  👉 Stored Routines\
-  👉 Indexes\
-  👉 Triggers
+  👉 
