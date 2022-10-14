@@ -14,3 +14,5 @@ For more about Credit Risk Analysis Models written by [CFI Team](https://corpora
   👉 Get the dataset [Available here](https://drive.google.com/drive/folders/1Vde1aOHpPVYwNV7sNMEgyWqwhGR7CH1p?usp=sharing)\
   👉 Pre-processing( cleaning the data, dealing with missing values, diffrent aspects to see discreate and   data\
   👉 
+
+https://learn.365datascience.com/courses/preview/data-cleaning-preprocessing-pandas/
