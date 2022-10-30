@@ -38,8 +38,11 @@ class DataIngestion:
         """
 
         try:
+            # split takes -> dataframe, 
+            print(dataframe)
+            print("dijabjdjajvfndvnfvnoknf")
             train_set, test_set = train_test_split(
-                dataframe, test_size=self.data_ingestion_config.train_test_split_ratio
+                dataframe, test_size=0.2, train_size=0.8
             )
 
             logging.info("Performed train test split on the dataframe")
