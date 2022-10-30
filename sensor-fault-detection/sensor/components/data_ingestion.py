@@ -38,9 +38,8 @@ class DataIngestion:
         """
 
         try:
-            # split takes -> dataframe, 
-            print(dataframe)
-            print("dijabjdjajvfndvnfvnoknf")
+            # # split takes -> dataframe, 
+            # print(dataframe)
             train_set, test_set = train_test_split(
                 dataframe, test_size=0.2, train_size=0.8
             )
