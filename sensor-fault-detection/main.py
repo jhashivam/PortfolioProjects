@@ -1,4 +1,4 @@
-from sensor.configuration.mongo_db_connection import MongoDBClient
+from sensor.configuration.mongo_db_connection_old import MongoDBClient
 from sensor.exception import SensorException
 import os,sys
 from sensor.logger import logging
