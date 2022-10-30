@@ -18,6 +18,6 @@ setup(
     author="Shivam Jha",
     author_email="shivamjhads@gmail.com",
     packages = find_packages(),
-    install_requires=get_requirements(),#["pymongo==4.2.0"],
+    install_requires=get_requirements() #["pymongo==4.2.0"],
 )
 
