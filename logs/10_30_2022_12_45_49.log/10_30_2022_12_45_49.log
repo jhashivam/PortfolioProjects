@@ -1,0 +1,2 @@
+[ 2022-10-30 12:45:50,034 ] 17 root - INFO - Starting data ingestion
+[ 2022-10-30 12:45:50,034 ] 22 root - INFO - Exporting data from mongodb to feature store
