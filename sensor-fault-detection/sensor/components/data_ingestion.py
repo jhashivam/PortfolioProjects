@@ -6,11 +6,14 @@ from sklearn.model_selection import train_test_split
 import os,sys
 from pandas import DataFrame
 from sensor.data_access.sensor_data import SensorData
+from sensor.utils.main_utils import read_yaml_file
+from sensor.constant.training_pipeline import SCHEMA_FILE_PATH
 class DataIngestion:
 
     def __init__(self,data_ingestion_config:DataIngestionConfig):
         try:
             self.data_ingestion_config=data_ingestion_config
+            self._schema_config = read_yaml_file(SCHEMA_FILE_PATH)
         except Exception as e:
             raise SensorException(e,sys)
 
@@ -38,10 +41,8 @@ class DataIngestion:
         """
 
         try:
-            # # split takes -> dataframe, 
-            # print(dataframe)
             train_set, test_set = train_test_split(
-                dataframe, test_size=0.2, train_size=0.8
+                dataframe, test_size=self.data_ingestion_config.train_test_split_ratio
             )
 
             logging.info("Performed train test split on the dataframe")
@@ -72,6 +73,7 @@ class DataIngestion:
     def initiate_data_ingestion(self) -> DataIngestionArtifact:
         try:
             dataframe = self.export_data_into_feature_store()
+            dataframe = dataframe.drop(self._schema_config["drop_columns"],axis=1)
             self.split_data_as_train_test(dataframe=dataframe)
             data_ingestion_artifact = DataIngestionArtifact(trained_file_path=self.data_ingestion_config.training_file_path,
             test_file_path=self.data_ingestion_config.testing_file_path)
