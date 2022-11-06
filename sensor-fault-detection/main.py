@@ -78,6 +78,7 @@ async def predict_route():
 
 def main():
     try:
+        env_file_path = "/Users/shivamjha/DataScience/PortfolioProjects/sensor-fault-detection/env.yaml"
         set_env_variable(env_file_path)
         training_pipeline = TrainPipeline()
         training_pipeline.run_pipeline()
