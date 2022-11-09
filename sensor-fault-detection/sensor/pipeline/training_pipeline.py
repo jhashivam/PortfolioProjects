@@ -119,3 +119,4 @@ class TrainPipeline:
             self.sync_artifact_dir_to_s3()
             TrainPipeline.is_pipeline_running=False
             raise  SensorException(e,sys)
+            
